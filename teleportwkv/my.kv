@@ -1,0 +1,14 @@
+<MyFloatLayout>:
+    Button:
+        id: button2
+        text: "Button 2"
+        size_hint: 0.2, 0.1
+        pos_hint: {'x': 0.5, 'y': 0.4}
+        on_release: root.swap_buttons(self)
+
+    Button:
+        id: button1
+        text: "Button 1"
+        size_hint: 0.2, 0.1
+        pos_hint: {'x': 0.1, 'y': 0.4}
+        on_release: root.swap_buttons(self)
